@@ -30,8 +30,20 @@
         
     }
 
+    header{
+       margin-left: 15px;
+       margin-right: 15px;
+    }
+
+    menu ul{
+        flex-flow: column;
+        
+    }
+    
     #desk_options{
+        
         display: none;
+        
     }
   
 }
