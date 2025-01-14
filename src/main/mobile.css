@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 320px) and (max-width: 947px) {
+
+    #story img{
+        margin-top: 45px;
+        border-radius: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width:720px) {
+    footer > #contact{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header{
+     min-width: 100px;
+     max-width: 670px;
+   
+     
+    }
+
+    button{
+        display: block;
+        
+    }
+
+    #desk_options{
+        display: none;
+    }
+  
+}
+

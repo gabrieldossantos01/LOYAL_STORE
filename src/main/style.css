@@ -1,0 +1,291 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(210, 210, 210, 0.347);
+}
+
+header{
+    background: #ffffff2e; /* #ffffff1a */
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    max-width: 680px;
+    display: block;
+    margin: auto;
+    z-index: 1;
+    position: sticky;
+    top: 5px;
+
+}
+
+
+
+menu{
+    width: 95%;
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#logo{
+    margin-top: 8px;
+    height: 200px;
+    width: 120px;
+    object-fit: cover;
+    margin-left:10px ;
+    transform: translateY(5px);
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 25px;
+}
+
+ul li{
+    list-style: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.opcoes > a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+li:hover{
+    background-color: rgba(90, 85, 116, 0.147);
+    transition: all .6s ease;
+}
+
+button{
+    border: none;
+    background: transparent;
+    font-size: 1.1em;
+    display: none;
+}
+
+
+
+main > #outdoor > #baner > img{
+    width: 100%;
+    transform: translateY(-100px);
+}
+
+
+
+#produtos > .textmain > h1{
+    transform: translateY(-45px);
+}
+
+.textmain h1{
+    font-size: 2.5em;
+    text-align: center;
+    font-family: serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.416);
+    padding-bottom: 10px;
+    width: 210px;
+    display: block;
+    margin: auto;
+
+}
+
+.items{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;    
+ 
+    position: relative;
+}
+
+
+
+#link_more{
+    display: block;
+    margin: auto;
+    width: 120px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: rgb(221, 221, 221);
+  
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    overflow: hidden;
+}
+
+#link_more a{
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#link_more:hover {
+    background-color: rgba(128, 128, 128, 0.488);
+    transition: all .5s ease;
+} 
+
+
+.visualpdc{
+    min-width: 200px;
+    width: 300px;
+    height: 370px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 50px 3px;
+    object-fit: cover;
+
+}
+
+.description{
+    font-size: 0.8em;
+    text-align: start;
+    transform: translateX(28px);
+}
+
+.prices{
+    padding-top: 5px;
+    font-size: 0.7em;
+    display: flex;
+    flex-flow: row;
+    justify-content:start;
+    gap: 20px;
+    transform: translateX(33px);
+}
+
+.price{
+    color: darkred;
+}
+
+
+#story{
+    padding: 30px;
+    background-color: #d8d8d8;
+    color: #3c3c3c;
+    min-height: 400px;
+
+}
+
+#story > .textmain h1{
+    padding-top: 25px;
+    border-color: whitesmoke;
+}
+
+
+
+#back-story{
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+.text_story{
+   
+
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    max-width: 600px;
+    min-width: 300px;
+    text-align: justify;
+}
+
+#back-story > #img-story-div img{
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+#current_img{
+    width: 270px;
+    height: 270px;
+    border-radius: 15px;
+}
+
+#current_story{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+footer{
+    background-color: black;
+    min-height: 50px;
+    max-height: 100px;
+}
+
+.social_media{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.3em;
+    margin-left: 7px;
+}
+
+#git:hover{
+   color: purple;
+}
+
+#ig:hover{
+    color: yellow;
+}
+
+#link:hover{
+    color: blue;
+}
+
+.social_media:hover{
+   
+    transition: all .5s ease;
+}
+
+footer p{
+    color: whitesmoke;
+}
+
+footer > #contact{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5px;
+}
+
+/* PAGINA MORE ITEMS ↓↓↓ */
+
+#text-page-more_items {
+  transform: translateY(-50px);
+}
+
+
+#page-more_items_pdc{
+    padding-bottom: 20px;
+}
