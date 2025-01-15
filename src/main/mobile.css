@@ -21,30 +21,41 @@
     header{
      min-width: 100px;
      max-width: 670px;
-   
+     margin-left: 15px;
+     margin-right: 15px;
      
     }
+   
+}
 
-    button{
-        display: block;
-        
-    }
+@media screen and (max-width: 475px) {
+   #img_logo{
+    display: none;
+   }
 
-    header{
-       margin-left: 15px;
-       margin-right: 15px;
-    }
+   #desk_options{
+    display: none;
+   
+   }
 
-    menu ul{
-        flex-flow: column;
-        
-    }
-    
-    #desk_options{
-        
-        display: none;
-        
-    }
+   button{
+ 
+    margin: auto;
+
+  
+   }
+
+   #burguer{
+    display: block;
+   }
+   
+   header{
+    width: 0;
+   }
+
+  
   
 }
+
+
 
