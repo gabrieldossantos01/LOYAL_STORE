@@ -1,0 +1,31 @@
+<header>
+        <menu>
+            <div id="img_logo">
+                <a href="index.html" id="link_header" target="_self">
+                  <img src="../../logo/blackblue_noest.png" alt="" id="logo">
+                </a>
+            </div>    
+            <button>
+                <span class="material-symbols-outlined" id="burguer">
+                    menu
+                    </span>
+            </button>
+            <div id="desk_options">
+                <ul id="ulpdr">
+                    <li class="opcoes">
+                        <a href="#principal">Products</a>
+                    </li>
+                    <li class="opcoes">
+                        <a href="#story">History</a>
+                    </li>
+                    <li id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                    <li id="bag">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </li>
+                </ul>
+            </div>
+        </menu>
+      
+    </header>
